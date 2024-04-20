@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { context } from '../App';
-import { comp, leetcodeLight, leetcodeDark, linkedin, github, gmail } from '../assets';
+import { comp, leetcodeLight, leetcodeDark, linkedin, github, gmail, codeforces } from '../assets';
 import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
@@ -18,6 +18,7 @@ const Hero = () => {
 						<div className='flex gap-5 md:gap-7 justify-start items-center'>
 							<Link to="/resume" className={`${isLight ? "bg-black-200 text-white-100" : "bg-white-100 text-black-200"} hover:scale-105 text-xs md:text-lg font-semibold p-3 rounded-xl`}>My Resume</Link>
 							<a href='https://leetcode.com/Vikash_Rajput/' target='__blank'><img src={isLight ? leetcodeLight : leetcodeDark} alt="leetcode" className='w-7 md:w-10 hover:scale-105' /></a>
+							<a href='https://codeforces.com/profile/Vikash_11/' target='__blank'><img src={codeforces} alt="codeforces" className='w-7 md:w-10 hover:scale-105' /></a>
 							<a href='https://www.linkedin.com/in/vikash-rajput-6851a3215/' target='__blank'><img src={linkedin} alt="linkedin" className='w-7 md:w-10 hover:scale-105' /></a>
 							<a href='https://github.com/Vikash231' target='__blank'><img src={github} alt="github" className={`${isLight ? '' : "invert"} w-7 md:w-10 hover:scale-105`} /></a>
 							<a href='mailto:vikashrajput2301@gmail.com' target='__blank'><img src={gmail} alt="gmail" className='w-7 md:w-10 hover:scale-105' /></a>

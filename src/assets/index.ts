@@ -32,6 +32,7 @@ import leetcodeDark from './social/leetcodeDark.svg';
 import linkedin from './social/linkedin.svg';
 import github from './social/github.svg';
 import gmail from './social/gmail.svg';
+import codeforces from './social/codeforces.svg';
 
 import aws from './skills/aws.png';
 import backend from './skills/backend.png';
@@ -83,5 +84,6 @@ export {
   railway,
   tenderbyte,
   aws,
-  php
+  php,
+  codeforces
 };
