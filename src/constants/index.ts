@@ -55,7 +55,7 @@ export const projects = [
     },
     {
         title: "Tender Management System (TenderByte)",
-        description: "Developed a user friendly railway management system using html, css, javascript, python and Django framework. Used html, css and javascript to build a responsive frontend for users. Used Django to sotre the user and train routes details in a database. Stored and managed application data efficiently, ensuring data integrity and reliability.",
+        description: "Developed a Tender Choosing App facilitating users to post tenders on the platform, and assisting tenderers in selecting tenders based on various filters and a robust rating system. Implemented server-side logic and handled backend operations. Managed and maintained data integrity using SQL commands. Developed a responsive and interactive user interface for a seamless user experience.",
         stack: [html, css, php],
         source: "https://github.com/Vikash231/TenderByte",
         media: tenderbyte
