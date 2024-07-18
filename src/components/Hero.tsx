@@ -25,7 +25,7 @@ const Hero = () => {
 						</div>
 						<p className={`${styles.heroSubText} ${isLight ? "text-black-200" : "text-white-100"} mt-2`}>I am a 
 						<span className='text-secondary-light'>
-							<Typewriter words={[' Full Stack Developer.', ' Competitive Programmer.', ' Software Engineer.']} loop={0} cursor cursorStyle='_' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+							<Typewriter words={[' Full Stack Developer.', ' Competitive Programmer.']} loop={0} cursor cursorStyle='_' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
 						</span></p>
 					</div>
 					<img src={comp} alt="Working Man" className='pointer-events-none' />
